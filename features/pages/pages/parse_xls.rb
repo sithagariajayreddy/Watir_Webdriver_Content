@@ -1,8 +1,8 @@
 class ParseXls
   def initialize
     (ENV_VER =='2') ?
-        @work_sheet = Spreadsheet.open(File.join(File.absolute_path('../../..', File.dirname(__FILE__)),"resource","Jordan_Expected_content_3.0.xls")):
-        @work_sheet = Spreadsheet.open(File.join(File.absolute_path('../../..', File.dirname(__FILE__)),"resource","Jordan_Expected_content_2.0.xls"))
+        @work_sheet = Spreadsheet.open(File.join(File.absolute_path('../../..', File.dirname(__FILE__)),"resource","Expected_content_3.0.xls")):
+        @work_sheet = Spreadsheet.open(File.join(File.absolute_path('../../..', File.dirname(__FILE__)),"resource","Expected_content_2.0.xls"))
   end
 
   def   get_sheet_by_name(sheet_name)

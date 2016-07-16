@@ -9,8 +9,10 @@ require 'fileutils'
 Cucumber::Rake::Task.new(:features) do |features|
   features.cucumber_opts = "features --format progress --format html --out=reports/features_report.html"
 end
+
+# The below line is to generate reports
 #  cucumber --tag=@homepage_page1 --format progress --format html --out=reports/features_report.html
-#
+
 Cucumber::Rake::Task.new(:features_ci) do |t|
   t.profile = 'jenkin'
 end
