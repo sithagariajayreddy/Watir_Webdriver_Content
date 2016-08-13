@@ -1,8 +1,8 @@
 @homepage_page1
-Feature: Jordan Homepage
+Feature: xxx Homepage
   As a user
   I want to
-  Register to jordan furniture in store private
+  Register to xxx in store private
 
 #  @watir
 #  Scenario: verify the label on registration page
