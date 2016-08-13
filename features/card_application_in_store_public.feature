@@ -7,7 +7,7 @@ Feature: In store private Card information
 
 #  @watir
 #  Scenario: in store private Submit the card information
-#    Given I am on jordans in store public ipad home page
+#    Given I am on xxx in store public ipad home page
 #    When I provide the in store public ipad customer information
 #    And I select continue button
 #    And I agree to term and conditions
@@ -17,7 +17,7 @@ Feature: In store private Card information
   ##Pre Decision Short AOD
   @watir
   Scenario: In store public private verify the Pre Decision Short AOD
-    Given I am on jordans in store public ipad home page
+    Given I am on xxx in store public ipad home page
     When In Store public I provide first name as Test ssn 999999999 and address as Approved
     And I select continue button
     Then I should see the correct short Rate & Fee Information
@@ -25,15 +25,15 @@ Feature: In store private Card information
 
   @watir
   Scenario: In store public verify the Electronic Disclosure Consent
-    Given I am on jordans in store public ipad home page
+    Given I am on xxxx in store public ipad home page
     When In Store public I provide first name as Test ssn 999999999 and address as Approved
     And I select continue button
-    Then I should see the jordan instore public correct Electronic Disclosure Consent
+    Then I should see the xxxx instore public correct Electronic Disclosure Consent
     And I agree to term and conditions
 
   @watir
   Scenario: In store public Verify the processing page
-    Given I am on jordans in store public ipad home page
+    Given I am on xxxx in store public ipad home page
     When In Store public I provide first name as Test ssn 999999999 and address as Approved
     And I select continue button
     And I agree to term and conditions
@@ -41,7 +41,7 @@ Feature: In store private Card information
 
   @watir
   Scenario Outline: In store public Verify Message Submit the card information
-    Given I am on jordans in store public ipad home page
+    Given I am on xxx in store public ipad home page
     When In Store public I provide first name as Test ssn 999999999 and address as <addressLine1>
     And I select continue button
     And I agree to term and conditions
